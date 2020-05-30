@@ -112,18 +112,18 @@
         android:layout_marginEnd="24dp"
         android:backgroundTint="#E8E8E8"
         android:text="Shared Pref.."
-        app:layout_constraintEnd_toStartOf="@+id/btnChoresApp"
+        app:layout_constraintEnd_toStartOf="@+id/btnInfiniteView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnListViews" />
 
     <Button
-        android:id="@+id/btnChoresApp"
+        android:id="@+id/btnInfiniteView"
         android:layout_width="175dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:backgroundTint="#E8E8E8"
-        android:text="Chores App"
+        android:text="Infinite View"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRecyclerView" />
 

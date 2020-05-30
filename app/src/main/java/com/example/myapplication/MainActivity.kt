@@ -53,6 +53,10 @@ class MainActivity : AppCompatActivity() {
         btnSharedPref.setOnClickListener {
             startActivity(Intent(this, SharedPreferencesActivity::class.java))
         }
+
+        btnInfiniteView.setOnClickListener{
+            startActivity(Intent(this, InfiniteView::class.java))
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
